@@ -1,0 +1,10 @@
+file,job_id,expected_years,expected_skills,expected_decision
+R01.txt,J01,5.8,python;sql;machine learning;pandas;docker,SHORTLISTED
+R02_fresher.txt,J01,0,python;sql;machine learning,REJECTED
+R03_exact_min.txt,J01,2.0,python;sql;machine learning,SHORTLISTED
+R04_missing_sql.txt,J01,4.8,python;machine learning;deep learning,REJECTED
+R05_injection.txt,J01,1.7,python,REJECTED
+R06_backend.txt,J02,6.3,java;sql;docker,SHORTLISTED
+R06_backend.txt,J01,6.3,java;sql;docker,REJECTED
+R07_year_only.txt,J01,7.8,python;sql;machine learning,SHORTLISTED
+R08_synonyms.txt,J01,4.8,python;sql;machine learning;natural language processing;scikit-learn,SHORTLISTED

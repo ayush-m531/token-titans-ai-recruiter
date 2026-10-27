@@ -1,0 +1,12 @@
+Priya Nair
+Pune, Maharashtra | priya.n@example.com
+
+SKILLS
+Python, SQL, Machine Learning, Tableau
+
+PROJECTS
+Customer churn prediction using scikit-learn (final year project, 2026)
+Sales dashboard in Tableau (2025)
+
+EDUCATION
+B.E. Information Technology, 2026

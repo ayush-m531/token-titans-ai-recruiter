@@ -1,0 +1,11 @@
+streamlit
+pandas
+pypdf
+pydantic
+google-genai
+python-dotenv
+# optional, for semantic search (falls back to keyword search without them)
+chromadb
+sentence-transformers
+# optional, only for scripts/fetch_hf_resumes.py
+datasets

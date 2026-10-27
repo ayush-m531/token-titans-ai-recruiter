@@ -1,0 +1,8 @@
+Kavya Reddy
+Chennai, Tamil Nadu
+
+Skills: Python, SQL, Machine Learning, Spark, Airflow
+
+Employment History
+Data Engineer, Infosphere Ltd (2019 - 2022)
+ML Engineer, DeepCart (2023 - Present)

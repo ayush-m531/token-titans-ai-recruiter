@@ -1,0 +1,10 @@
+Vikram Singh
+Noida, Uttar Pradesh
+
+Skills: Java, Spring Boot, SQL, Docker, Kubernetes, AWS
+
+Experience
+Senior Backend Engineer, PayStream — Jun 2023 – Present
+Backend Engineer, CodeCraft Solutions — Jul 2020 – May 2023
+
+Education: B.Tech CSE, 2020

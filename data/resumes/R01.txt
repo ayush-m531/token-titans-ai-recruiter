@@ -1,0 +1,12 @@
+Rahul Verma
+Ahmedabad, Gujarat | rahul.v@example.com | +91 98765 43210
+
+SKILLS
+Python, SQL, ML, Pandas, Docker
+
+EXPERIENCE
+Data Analyst, Infocore Pvt Ltd — Jan 2021 to Dec 2022
+Machine Learning Engineer, NovaAI Labs — Oct 2022 to Present
+
+EDUCATION
+B.Tech Computer Engineering, 2020

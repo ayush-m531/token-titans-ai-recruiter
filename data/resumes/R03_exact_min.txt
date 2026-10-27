@@ -1,0 +1,10 @@
+Arjun Mehta
+Bengaluru, Karnataka
+
+Skills: Python, SQL, Machine Learning, PyTorch
+
+Work Experience
+Junior Data Scientist, Quantly Analytics — Nov 2024 – Present
+  Built demand forecasting models in Python and SQL.
+
+Education: M.Sc. Statistics, 2024
