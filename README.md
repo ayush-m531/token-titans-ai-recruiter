@@ -72,14 +72,6 @@ One job per application; "today" = Oct 2026; panel availability is synthetic; in
 ## Known limitations / future scope
 No offline LLM fallback; no FastAPI layer (Streamlit calls the pipeline directly); semantic search rebuilds an in-memory index per query (fine for a demo, not for 10k resumes); no ranking among shortlisted candidates; no calendar/email integration.
 
-## Failed attempts
-[team: list what you tried today that didn't work, e.g. model errors, parsing problems, design changes]
-
-## Team contributions
-- **Ayush Thakar:** [3 sentences — LLM client, Resume Parser Agent, orchestrator]
-- **Member 2:** [3 sentences]
-- **Member 3:** [3 sentences]
-- **Member 4:** [3 sentences]
 
 ## AI-assistant use
 Code was drafted with an AI coding assistant (Claude) from the team's design decisions; prompts are in `docs/prompts.md`.
