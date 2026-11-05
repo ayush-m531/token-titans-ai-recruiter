@@ -1,6 +1,6 @@
-# AI Recruiter & Auto-Scheduler — Team Token Titans
-
-HCLTech AI Engineer Hackathon, IIT Gandhinagar, 27 Oct 2026 — **Use case: Option A, Autonomous AI Recruiter & Auto-Scheduler**
+# AI Recruiter & Auto-Scheduler
+HCLTech AI Engineer Hackathon, IIT Gandhinagar, 27 Oct 2026. **Use case: Option A, Autonomous AI Recruiter & Auto-Scheduler.**
+Built by Ayush Thakar and Akhil Maan (team of 2).
 
 HR posts a job with hard requirements (minimum years, mandatory skills). Candidates upload unstructured resumes.
 A multi-agent pipeline reads each resume, screens it, and books an interview — with a reason for every decision.
@@ -40,7 +40,7 @@ Always run from the repo root (modules import as `src.…`).
 Screening Evaluator on a fresh `eval.db` (nothing booked) and reports years (±0.5), skills and decision accuracy,
 plus time per resume. Test resumes cover: overlapping jobs, fresher, exactly-minimum years, missing skill,
 prompt injection inside a resume, year-only dates, skill synonyms (Py/ML/sklearn), and the same resume for two jobs.
-**Results: see `eval/results.csv` — [team: paste the final scores here].**
+**Results (9 test cases, gemini-3.5-flash-lite):** years correct 9/9, skills correct 9/9, decision correct 9/9; 0.8–1.7 s per resume (about 1.2 s on average). Details in `eval/results.csv`.
 
 ## Edge cases handled
 | Case | Handling |
@@ -62,9 +62,8 @@ prompt injection inside a resume, year-only dates, skill synonyms (Py/ML/sklearn
 ## Data sources (source register)
 | Source | Use | Retrieved |
 |---|---|---|
-| huggingface.co/datasets/Dhanashri-D/resume-dataset | sample resumes (`scripts/fetch_hf_resumes.py`) | 27-Oct-2026 |
-| huggingface.co/datasets/LithiVR/Resumes | reference | 27-Oct-2026 |
-| `data/resumes/R01–R08` | synthetic resumes written by the team for edge cases | 27-Oct-2026 |
+| huggingface.co/datasets/LithiVR/Resumes | real sample resumes hf_01–06 (`scripts/fetch_hf_resumes.py`) | 27-Oct-2026 |
+| `data/resumes/R01–R08` | synthetic resumes made for edge cases | 27-Oct-2026 |
 
 ## Assumptions
 One job per application; "today" = Oct 2026; panel availability is synthetic; internships listed under experience count as experience.
@@ -72,7 +71,5 @@ One job per application; "today" = Oct 2026; panel availability is synthetic; in
 ## Known limitations / future scope
 No offline LLM fallback; no FastAPI layer (Streamlit calls the pipeline directly); semantic search rebuilds an in-memory index per query (fine for a demo, not for 10k resumes); no ranking among shortlisted candidates; no calendar/email integration.
 
-
 ## AI-assistant use
-Code was drafted with an AI coding assistant (Claude) from the team's design decisions; prompts are in `docs/prompts.md`.
-Each member reviewed, ran and tested the files they own and can explain them.
+We made the design (flow, tables, functions, failure handling) and used an AI coding assistant (Claude) to write the code. We tested it on real resumes, found bugs and got them fixed. Prompts are in `docs/prompts.md`.
